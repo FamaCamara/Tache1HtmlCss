@@ -1,0 +1,29 @@
+body{ 
+
+    font-family: 'open Sans' sans-serif;
+    background-color: green;
+}
+nav a{
+    float: left;
+    text-decoration: none;
+    color: brown;
+    background: grey;
+    height: 36px;
+    line-height: 33px;
+    padding: 0 10px;
+    font-family: sans-serif;
+    transition: .5s;
+    font-size: 13px;
+
+}
+nave a:hover{
+    background: #f43c80;
+}
+
+footer{
+    text-align: center;
+    padding: 4px;
+    width: 80px;
+    background-color: blue;
+    color: #000;
+}

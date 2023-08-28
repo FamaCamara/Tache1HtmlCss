@@ -1,0 +1,10 @@
+body{ 
+
+    font-family: 'open Sans' sans-serif;
+    background-image: url("http://cdn02.overnature.net/1366/746-coucher-de-soleil.jpg") ,
+     url( https://w.forfun.com/fetch/6e/6eadcbb79c230dbc81c6dcf307f26223.jpeg    );
+    background-size: 25%, 50%;
+    background-repeat: no-repeat, no-repeat;
+    
+
+}

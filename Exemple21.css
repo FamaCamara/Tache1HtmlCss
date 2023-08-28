@@ -1,0 +1,14 @@
+body{ 
+
+    font-family: 'open Sans' sans-serif;
+   
+}
+
+.div1{
+
+       background: -webkit-linear-gradient(RGBa(255 ,000 ,000 ,0.8 ),RGBa(255 ,000 ,000 ,0.1 ));
+       background: -o-linear-gradient(RGBa(255 ,000 ,000 ,0.8 ) ,RGBa(255 ,000 ,000 ,0.1));
+       background: -moz-linear-gradient(RGBa(255 ,000 ,000 ,0.8 ) ,RGBa(255 ,000 ,000 ,0.1));
+       background:  linear-gradient(RGBa(255,000 ,000 ,0.8 ) ,RGBa(255 ,000 ,000 ,0.1));
+       
+}

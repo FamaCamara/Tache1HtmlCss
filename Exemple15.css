@@ -1,0 +1,23 @@
+body{
+    font-family: 'open Sans' sans-serif;
+
+}
+p{
+
+    border: 1px solid black;
+  } 
+
+  h1{
+       display: none;
+  }
+
+  .p1{
+    display: inline-block;
+    width: 65%;
+  }
+
+  .p2{
+
+    display: none;
+    
+  }

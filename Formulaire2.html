@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="Styl.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <h1>Les formulaires</h1> 
+   <form method="post" action="traitement">
+          <label for="prenom">Entrez votre prénom</label>
+          <input type="text" id="prenom"><br>
+
+         <label for="pass">Un mot de passe </label>
+         <input name="pass" id="pass" type="password"><br>
+
+         <label for="naissance">Votre date de naissance</label>
+         <input type="date" id="naissance" name="naissance"><br>
+
+         <label for="email">Entrez votre email</label>
+         <input type="email" id="email" name="mail"><br>
+         
+         <label for="email">Entrez votre site</label>
+         <input type="" id="url" name="site" id="site"><br>
+
+         <label for="email">Entre votre numero</label>
+          <input type="number" id="tel" name="tel"><br><br><br>
+
+          Quel(s) sport(s) pratiquez vous?<br>
+          <input type="checkbox" name="sports" value="natation" id="natation">
+          <label for="natation" >Natation</label><br>
+          <input type="checkbox" name="sports" value="course" id="course">
+          <label for="course" >Course à pied </label><br>
+          <input type="checkbox" name="sports" value="velo" id="velo">
+          <label for="natation" >Velo</label><br><br>
+
+
+         <label for="prez">Une petite presentation?</label>
+         <textarea name="presentation" id="prez"></textarea><br><br>
+
+
+         homme et femme?<br>
+         <input type="radio" id="homme" name="sexe" value="homme">
+         <label for="homme">Un homme</label><br>
+         <input type="radio" id="femme" name="sexe" value="femme">
+         <label for="femme">Une femme</label><br><br>
+
+          Majeur ou mineur ?<br>
+         <input type="radio" id="mineur" name="age" value="mineur">
+         <label for="mineur">Mineur</label><br>
+         <input type="radio" id="majeur" name="age" valeur="majeur">
+         <label for="majeur">Majeur</label><br><br>
+
+         Ou habitez vous?<br>
+         <select name="pays" id="">
+         <optgroup label="Europe">
+             <option value="france">France</option>
+             <option value="belgique">Belgique</option>
+          </optgroup>
+          <optgroup label="Amerique">
+              <option value="Canada">Canada</option>
+          </optgroup>
+         <optgroup label="Afrique">
+             <option value="belgique">Maroc</option>
+            <option value="france">Tunisie</option>
+            <option value="belgique">Algerie</option>
+            <option value="france">Togo</option>
+            <option value="belgique">Gabon</option>
+         </optgroup>
+         <br><br>
+        </select>
+
+         <input type"submit" value="Envoyez">
+    </form>
+   </body>
+   </html>
